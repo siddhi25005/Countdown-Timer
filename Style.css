@@ -1,0 +1,57 @@
+body{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.main1{
+    height:auto;
+    width:400px;
+    background-color:black;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    border-radius:20px;
+}
+.main2{
+    height:50px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:10px;
+    gap:10px;
+}
+.num1,.num2{
+    height:40px;
+    width:100px;
+    font-size:20px;
+    text-align:center;
+}
+.main3{
+    height:50px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    margin:10px;
+}
+button{
+    height:40px;
+    width:100px;
+    font-size:20px;
+    color:white;
+    text-shadow:0 0 10px black;
+}
+.start{
+    background-color:green;
+}
+.stop{
+    background-color:red;
+}
+.reset{
+    background-color:yellow;
+}
